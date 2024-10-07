@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <style>
+        header{
+            background-color:tomato;
+            color:white;
+            padding: 10px;
+            font-size: 25px;
+            text-align: center;
+        }
+        section{
+            height: 400px;
+            display: flex;
+            grid-template-columns: 2fr 8fr 2fr;
+        }
+        nav div
+        {
+            border: 2px solid tomato;
+            border-radius: 10px;
+            width: 100px;
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 20px;
+            background-color: tomato;
+            color: white;
+        }
+
+        aside{
+            width: 100px;
+            height: 50px;
+            border: 2px dotted black;
+            text-align: center;
+            padding-top: 5px;
+
+        }
+        article{
+            width:300px;
+            background-color: darkcyan;
+            color: white;
+            padding: 5px;
+            font-size: 15px;
+
+        }
+        footer{
+            background-color: tomato;
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            padding: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>Amozon Shoping</div>
+    </header>
+    <section>
+      <nav>
+        <menu>
+          <div>Home</div>
+          <div>About Us</div>
+          <div>Shop</div>
+          <div>Blog</div>
+          <div>Contact</div>
+        </menu>
+      </nav>
+     
+      <main> 
+        <dialog> Any Help</dialog>
+        <div> Welcome online Shopping Store </div>
+        <figure> Your img</figure>
+        <figcaption>Samsung</figcaption>
+      </main>
+
+      <aside> Ad's Here...</aside>
+      <article>70% Off on Shopping Discount enjoy the Offer </article>
+
+    </section>
+
+    
+
+    <footer>
+      <div>&copy;Copyright 2021</div>
+    </footer>
+  </body>
+</html>
