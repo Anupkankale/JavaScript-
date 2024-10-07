@@ -273,5 +273,28 @@ Advance Attributes :
 
  Card Layout Using Images with Responsive design:
  =================================================
- 
-               
+
+  #container
+        {
+            display: flex;
+            flex-wrap: wrap; // its is use for responsive
+        }              
+
+ Links :
+
+Day 17
+--------       
+Link In HTML
+
+1. Link is clickable text, picture or graphics that nevigates the user to any location
+
+2. Link on Web are know as "hyperlinks"
+3. Hyper links are two types
+    1) Intra documents links
+    2) inter documents links
+
+Intra document links:
+ - a hyperlink that nevigate from one location to another with the same page
+ - Hyperlinks is Created by using "anchor" element that uses <a> tag
+ - Links uses "href" Attribute that sets the target URl 
+ - 
