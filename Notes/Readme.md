@@ -297,4 +297,66 @@ Intra document links:
  - a hyperlink that nevigate from one location to another with the same page
  - Hyperlinks is Created by using "anchor" element that uses <a> tag
  - Links uses "href" Attribute that sets the target URl 
- - 
+ - Navigation with in the same page its know as Intra Documentation link
+
+
+  step-1 : Define "id" for any element in page
+
+          <h2 id="home"> Home </h2>
+ 
+ step-2 : You Can refer "id" by using anchor 
+
+        <a href="#home"> </a>
+ # href it is a set UrL
+ <li><a href="#home">  Home </a></li>
+ 
+ # src it is a Geter like if i want to get img fron source folder or any think     
+<img src="assets/images (1).png" width="30%" height="30%">
+
+ FAQ : How to target any Refernce within the page with Style ?
+ Ans: By Using "Target" Selector
+ .topic {
+    // Inital effects
+ }
+
+ .topic:target{
+    // effects to Apply Whwn its is a target for Hyperlik
+ }
+
+ FAQ : How to change Effects for element mouse over ?
+  Ans: By using ":hover" Selector
+         
+         .topic : hover{
+            //Your Effect
+         }
+
+ FAQ : How To  Remove Underline For HyperLink ?
+ ANS : By Using "text-decoration:none"  With style
+
+ a{
+    text-decoration:none;
+ }
+
+FAQ : How to Change color for HyperLink
+----------------------------------------
+
+  a:link{
+    effect to normal link;
+  }
+
+  a:visited {
+    effect for visited link
+  }
+
+ a:active{
+    effect for active link
+  }
+
+Day 18
+---------
+HTML Links
+
+ 1) Intra Link
+ 2) Inter Link
+
+ The target Linked 

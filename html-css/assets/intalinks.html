@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        background-color: burlywood;
+      }
+      a:link {
+        color: yellow;
+      }
+
+      a:visited {
+        color: brown;
+      }
+
+      a:active {
+        color: red;
+      }
+
+      .topic {
+        border: 2px solid black;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+      .topic:target {
+        background-color: black;
+        color: white;
+      }
+
+      .topic:hover {
+        background-color: aqua;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+      }
+
+      li {
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+
+
+        font-size: 20px;
+        margin-right: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="#html">HTML </a></li>
+        <li><a href="#css"> CSS </a></li>
+        <li><a href="#javascript"> JavaScript </a></li>
+      </ul>
+    </div>
+
+    <div class="topic" id="html">
+      <h2>HTML</h2>
+      <p>It is a markup language</p>
+    </div>
+
+    <div class="topic" id="css">
+      <h2>CSS</h2>
+      <p>It is a markup language</p>
+    </div>
+
+    <div class="topic" id="javascript">
+      <h2>JavaScript</h2>
+      <p>It is a markup language</p>
+    </div>
+  </body>
+</html>
