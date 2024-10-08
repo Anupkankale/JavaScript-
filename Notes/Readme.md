@@ -359,4 +359,12 @@ HTML Links
  1) Intra Link
  2) Inter Link
 
- The target Linked 
+ The target Linked Document Can Open In Browser only when relative plugin's are Supported by Browser
+
+ if plugin are not supported then the target document will download
+
+ FAQ : How to link a document which will download always ?
+
+ ans : by using "download" attribut 
+
+ <a href="tv.png" >
