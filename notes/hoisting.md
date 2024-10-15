@@ -1,4 +1,4 @@
-   Hoistin
+   Hoisting
    ---------
   the process where declarations (variables and functions) are moved to the top of their containing scope
   during the compile phase, before the code is executed.
