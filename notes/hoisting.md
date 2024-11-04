@@ -15,7 +15,7 @@
 
   <li> Not Defined: The variable has not been declared anywhere in the code, and accessing it will result in a ReferenceError.</li>
 =======
-  # Not define :-
+   Not define :-
     When you try to reference a variable that hasn’t been declared
     anywhere in your code, you get a ReferenceError with the  message "x is not defined".
 
