@@ -1,0 +1,50 @@
+# React
+
+Before Starting react Need to Learn JavaScript
+
+Hoisting Variable
+
+Var, let, const
+
+### Function
+
+- [ ]  Arrow Function
+- [ ]  Higher Order Function
+
+### 
+
+Arrays and Objects
+
+- [ ]  Array Destructuring
+- [ ]  Object Destructuring
+- [ ]  Rest Operator
+- [ ]  Spread Operator
+
+### Conditional in JavaScript
+
+- [ ]  if else
+- [ ]  ternary operator
+- [ ]  using && and ||
+- [ ]  Optional Chaining
+
+### Array Method
+
+- [ ]  map()
+- [ ]  Filter()
+- [ ]  reduce()
+- [ ]  sort ()
+
+### Event Listeners
+
+- [ ]  onclick
+- [ ]  onBlur
+- [ ]  onChange
+- [ ]  onFocus
+- [ ]  setTimeout() &setInterval()
+
+### Asynchronous Events
+
+- [ ]  Callbacks
+- [ ]  Callbacks Hell
+- [ ]  Promises
+- [ ]  Promise API’sgi
