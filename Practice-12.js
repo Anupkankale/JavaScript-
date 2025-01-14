@@ -1,4 +1,4 @@
-// //Function
+// //Function Practice Questions 
 
 // // function have in method arguments its use full acpet unlimited input form user
 
