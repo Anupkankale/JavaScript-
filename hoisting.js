@@ -1,4 +1,3 @@
- 
 
 function studyUndefined(){
     var x
