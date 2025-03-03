@@ -1,5 +1,4 @@
-# JavaScript Interview Questions
-
+ 
 ## Basic JavaScript Questions
 1. What are the different data types in JavaScript?
 2. What is the difference between `let`, `const`, and `var`?
@@ -36,12 +35,4 @@
 29. What is **debouncing** and **throttling**, and how are they used?
 30. What are WeakMap and WeakSet in JavaScript?
 
-## Bonus: JavaScript Coding Challenges
-1. Write a function to check if a string is a palindrome.
-2. Write a function to find the largest number in an array.
-3. Implement a function that removes duplicates from an array.
-4. Write a function to reverse a string without using `.reverse()`.
-5. Implement a simple **debounce function**.
-
----
-Feel free to use this list to prepare for JavaScript interviews! 🚀 
+ 
